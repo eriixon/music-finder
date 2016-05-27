@@ -21,8 +21,8 @@ function drawSongs(songList){
     element.innerHTML +='<li class="list-group-item"><div class="row">'
     + '<div class="col-xs-2">' + '<img src="' + currSong.albumArt + '"alt="album"/></div>'
     + '<div class="col-xs-4">' + 'Title: '  + currSong.title + '<br>' + "Collection: " + currSong.collection + '</div>'
-    + '<div class="col-xs-4"> <audio controls><source src="' + currSong.preview + '" type="audio/ogg"></audio> </div>'
-    + '<div class="col-xs-2"> <a href ="' + currSong.collectionUrl + '"><img src="app/it.png"></a></div> </div> </li>';
+    + '<div class="col-xs-4 center-block" style= "margin-top: 3px"> <audio controls><source src="' + currSong.preview + '" type="audio/ogg"></audio> </div>'
+    + '<div class="col-xs-2 center-block"> <a target="_blank" href ="' + currSong.collectionUrl + '"><img src="app/it.png"></a></div> </div> </li>';
     }
     
 }
