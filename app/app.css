@@ -23,9 +23,9 @@ body {
     font-style: italic;
     margin-bottom: 20px;
 }
-ul >li {
+.list-group-item {
     margin-bottom: 10px;
-    background: transparent;
+    opacity: 0.9;
 }
 ul {
 list-style-type: none;
