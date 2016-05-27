@@ -15,7 +15,6 @@ var itunes = {
                       artist: song.artistName,
                       collection: song.collectionName,
                       collectionUrl: song.collectionViewUrl,
-                      price: song.collectionPrice,
                       preview: song.previewUrl
                     };
                 })
