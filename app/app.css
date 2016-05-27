@@ -4,12 +4,12 @@ body {
     background-attachment: fixed;
     overflow-x:  hidden;
     height: 100%;
+    font-family: 'Ubuntu', sans-serif;
 }
 .jumbotron {
     background: transparent;
     text-align: center;
     color: antiquewhite;
-    font-family: 'Ubuntu', sans-serif;
     margin-bottom: 0;
 }
 
