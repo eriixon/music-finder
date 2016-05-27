@@ -1,0 +1,16 @@
+body {
+    background-image: url(../app/max.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x:  hidden;
+    height: 100%;
+}
+.jumbotron {
+    background: transparent;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Ubuntu', sans-serif;
+}
+.input-group {
+    margin: 30px 0;
+}

@@ -1,43 +1,39 @@
 <html>
   <head>
-    <title>Itunes</title>
+    <title>ITunus Music Finder</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-    <link rel="stylesheet" href="app.css">
-    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="app/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
   </head>
   
   <body>
-    
-    <div class="col-xs-10 col-xs-offset-1 panel panel-defaul">
-        
-      <div class="panel-heading">
-        <div class="row">
-          <div class="col-xs-5 col-xs-offset-1">
-          <form class="form-inline">
-            <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
-            <div class="form-group" style="margin-top:20px;">
-                <input type="text" style="width: 300px" class="form-control" id="artist" placeholder="Artist Name"/>
-                <button type="button" class="btn btn-primary" id="get-music-button" onclick="getMusic()">Get Music</button></p>
-            </div>
-          </form>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="jumbotron col-md-8 col-md-offset-2">
+          <h1>iTunes Music finder</h1>
+          <h2>Get all you love</h2>
+
+              <div class="input-group input-group-lg">
+                <input type="text" class="form-control" placeholder="Search for..." id="artist">
+                <span class="input-group-btn">
+                  <button class="btn btn-primary" type="button" id="get-music-button" onclick="getMusic()" >Get Music!</button>
+                </span>
+              </div><!-- /input-group -->
+         </div><!-- jumbotron -->
+         
+         <div class="col-md-8 col-md-offset-2">
+           
+           <ul class="list-group">
+             <h3> <span id="song-count"></span></h3>
+            <li class="list-group-item" id="song-list"></li>
+          </ul>
+           
          </div>
-         <div class="col-xs-6">
-           <h1 id="head">MUSIC SEARCH BAR</h1>
-         </div>
-        </div>
-          
-      </div>
-      
-      <div class="panel-body">
-        <h3> <span id="song-count"></span></h3>
-        <ul class="list-group" id="song-list">    
-                     <!--SONGS ADDED DYNAMICALLY HERE-->
-        </ul>
       </div>
     </div>
     
-    <script src ="app.js"></script>
-    <script src='itunes-service.js'></script>
+    <script src="app/app.js"></script>
+    <script src="app/itunes-service.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
   </body>
 </html>
