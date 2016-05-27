@@ -10,7 +10,20 @@ body {
     text-align: center;
     color: antiquewhite;
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 0;
 }
+
 .input-group {
-    margin: 30px 0;
+    margin: 30px 0 0 0;
+}
+
+#song-count {
+    color: antiquewhite;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+ul >li {
+    margin-bottom: 10px;
+    background: transparent;
 }
