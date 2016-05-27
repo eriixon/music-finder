@@ -9,8 +9,8 @@ body {
 .jumbotron {
     background: transparent;
     text-align: center;
-    color: antiquewhite;
     margin-bottom: 0;
+    color: antiquewhite;
 }
 
 .input-group {
@@ -29,4 +29,13 @@ body {
 }
 ul {
 list-style-type: none;
+}
+
+li:hover {
+    opacity: 1;
+}
+.jumbotron h1 {
+font-size: 5em;
+color:#fff;
+text-shadow:0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18
 }
