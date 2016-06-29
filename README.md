@@ -12,4 +12,4 @@ You can listen a fragment from one of them or click on a icon of the album on th
 
 Technologies.
 
-HTML, CSS, JavaScript and JQuery.
+HTML, CSS, JavaScript, JQuery and iTunes API.
